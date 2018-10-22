@@ -73,3 +73,20 @@ If you checked out the source tree, you should see a script in the
 home directory called test-all-versions. This script will run the unit
 tests under Python 2.7, then create a temporary Python 3 conversion of
 the source and run the unit tests again under Python 3.
+
+# What is new in this repository?
+
+You can enjoy from new css select rules such as
+- :lt
+- :lte
+- :gt
+- :gte
+- :eq
+- :contains
+- :containsOwn
+- :matches
+- :matchesOwn
+- :nth-child
+- :nth-of-type
+
+Also css select funtion bugs have been fixed.
