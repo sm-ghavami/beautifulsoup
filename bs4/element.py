@@ -1501,7 +1501,7 @@ class Tag(PageElement):
 
                         elif op == '.':
                             # Class selector
-                            sel_name = set(sels[1])
+                            sel_name = set([sel_path[1]])
 
                             def classes_match(candidate):
                                 if tag_name is not None and len(tag_name) > 0:
