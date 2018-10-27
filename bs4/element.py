@@ -1485,7 +1485,7 @@ class Tag(PageElement):
                     _tag_name, attribute, operator, value = m.groups()
                     checkers.append(self._attribute_checker(operator, attribute, value))
                     sels = _tag_name
-                if len(sels) > 0 :
+                if sels is not None and len(sels) > 0 :
                     while True:
                         sel_path = re.split(r"[:\.#\[]", sels, 2)
                         op = sels[0]
